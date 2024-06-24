@@ -1,0 +1,19 @@
+.d1,.d2,.d3{
+    width: 400px;
+    height: 500px;
+    background-color: aqua;
+    border: 2px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+div a{
+    color: brown;
+}
+div img{
+    border-radius: 20px;
+}
+.parent
+{
+    display: flex;
+}

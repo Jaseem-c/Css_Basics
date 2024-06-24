@@ -1,0 +1,18 @@
+#para1{
+    border: 8px solid red ;
+    margin-top: 15px;
+    padding: 20px;
+    
+}
+#para2
+{
+    border: 8px dotted red ;
+    margin: 100px 100px;  
+    padding: 20px;
+}
+/* first value -top&bottom second value- right and left */
+#para3
+{
+    border: 50px outset red ;
+    margin: 20px 100px 10px 20px;  
+}

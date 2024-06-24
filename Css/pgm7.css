@@ -1,0 +1,27 @@
+/* div{
+    border: 2px solid red;
+    background-color: aqua;
+    width: 400px;
+    padding: 40px;
+    transform:scalex(1.5);
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+/* grid system */
+.parent
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr 2fr);
+    column-gap: 10px;
+    row-gap: 20px;
+    grid-template-rows: 200px 100px 200px ;
+}
+.child
+{
+    border: 2px solid red;
+}
