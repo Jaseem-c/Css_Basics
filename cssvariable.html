@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css variables</title>
+</head>
+<style>
+    /* global variable */
+    :root{
+        --x:blue;
+    }
+    h1{
+        color: var(--x);
+    }
+    /* local variable */
+    p{
+        --y:white; 
+        background-color: var(--x);
+        color: var(--y);
+    }
+    h3
+    {
+        background-color: var(--x);
+        color: var(--y); /* not working */
+    }
+</style>
+<body>
+    <h1>heading</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus animi consectetur voluptates mollitia temporibus deserunt nobis, molestias aliquid aperiam rem.</p>
+    <h3>heading3</h3>
+</body>
+</html>

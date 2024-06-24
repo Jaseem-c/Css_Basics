@@ -1,0 +1,129 @@
+css
+---
+CASCADING STYLE SHEET
+css-3
+
+-styling
+
+different way of using css
+--------------------------
+1)inline css - used within the opening tag
+    -syntax: style="property:value" 
+     -perticular tag
+2)internal css-inside style tag within the html file
+    -syntax:
+    <style>
+    selector{
+        property : value;
+    }
+    </style>
+    -perticular file
+3)external css-new file is created with extension .css & link the  style sheet with html using link tag
+    -morethan one files
+    -code reusability
+    -reduce no of code( decrease loading time )
+    -readability
+
+priority- inline>internal>external
+syntax: set of rules
+
+shift+alt+a -comment
+
+CSS selectors
+-----------
+1)tagname selectors- tag based
+2)id selectors - style unique
+3)class selectors - style group
+4)universal selector- to select entire document page
+5)descendant selector - parent space child(tag)
+
+CSS  box model
+---------------
+essentialy a box that wraps arround every html element.it consist of 
+1.content
+2.margin- space between bordrer and outer space
+3.padding- sapce between border and content
+4.border- invisible line drawn arround the html element
+
+margin-top
+margin-bottom
+margin-left
+margin-right
+
+margin: 100px 200px;  first value:top and bottom , second value :left and right
+margin:50px 100px 150 px 50 px; top,right,bottom,left
+(same as padding)
+
+
+padding-top
+padding-bottom
+padding-left
+padding-right
+
+border: solid,dotted,dashed,double,groove,ridge,inset,outset
+border-radius : to curve edges of border (if wdith=height then border radius=50% --> circle)
+
+display:flex  - align contents side by side in parent tag 
+background-image,font-size
+
+universal selector
+-----------------
+to select throughout the  document  - *{}
+
+background-repeat,background-size,background-position,background-attachment,opacity
+position,
+
+CDN-content delivery network
+----------------------------
+-access another webiste content in our website using link(without download) 
+
+vh-viewport height:depends on screen size
+position:relative- all contents  inside it will be relative to its own position(exact location)
+
+justify-content: space-between;- to create space between child elements
+align:center - to place child elements vertically cenetr
+ list-style: none;  /* to remove  the bullet point from unordered list */
+  display: inline;    /* makes all the element in a line */
+
+postion relative: real positon
+postion absolute: related to parent
+
+
+pseudo class: special state of an element
+------------
+hover
+visited
+unvisisted
+/* element:pseudo class { property:value}*/
+
+a-download attribute
+
+center-
+---------
+justify-content: center - 
+display:flex
+align-items:cenetr - 
+
+transform:
+---------
+translatex()
+translatey() - move
+rotatex()
+scale() - zoom  <1=zoom in >1=zoom out
+
+grid system layout
+-------------------
+it provides rows and columns in the web pagess
+
+display: grid;
+    grid-template-columns:  400px 400px 400px;
+    column-gap: 10px;
+    row-gap: 20px;
+
+    gap:30px
+
+    unit- fraction fr - divide the available spaces equaly 
+
+    new unit : 1rem -16px
+
+    
